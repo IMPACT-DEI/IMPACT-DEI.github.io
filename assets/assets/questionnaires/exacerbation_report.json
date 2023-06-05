@@ -1,0 +1,105 @@
+[
+    {
+        "name": "Exacerbation Report", 
+        "id": 1, 
+        "lastRevision" : "10/2022", 
+        "description": "This is a test to assess the goodness of control of the chronic respiratory disease", 
+        "questions" : [
+            {
+                "question_id": 1, 
+                "order" : 1, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Did you have asthma symptoms?", 
+                "type": "List", 
+                "options": [
+                ]
+            },
+            {
+                "question_id": 2, 
+                "order" : 2, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Did you use inhaler nebulizer?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Yes", "is_positive": true},  
+                    {"value": "No", "is_positive": true} 
+                ]
+            },
+            {
+                "question_id": 3, 
+                "order" : 3, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "It has happened during the day or during the night?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Day", "is_positive": true},  
+                    {"value": "Night", "is_positive": true}
+                ]
+            },
+            {
+                "question_id": 4, 
+                "order" : 4, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "It has happened Indoors or Outdoors?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Indoors", "is_positive": true},  
+                    {"value": "Outdoors", "is_positive": true}
+                ]
+            },
+            {
+                "question_id": 5, 
+                "order" : 5, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Where you in a busy area?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Yes", "is_positive": true},  
+                    {"value": "No", "is_positive": true}
+                ]
+            }, 
+            {
+                "question_id": 6, 
+                "order" : 6, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Were you exposed to allergens?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Yes", "is_positive": true},  
+                    {"value": "No", "is_positive": true}
+                ]
+            }, 
+            {
+                "question_id": 7, 
+                "order" : 7, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Were you exposed to cold air?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Yes", "is_positive": true},  
+                    {"value": "No", "is_positive": true}
+                ]
+            }, 
+            {
+                "question_id": 8, 
+                "order" : 8, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Did you have bacterial or viral infections recently?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Yes", "is_positive": true},  
+                    {"value": "No", "is_positive": true}
+                ]
+            }
+        ]
+    
+    }
+]

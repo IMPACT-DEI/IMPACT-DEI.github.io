@@ -1,0 +1,721 @@
+[
+    {
+        "name": "Lifestyle", 
+        "id" : 2, 
+        "lastRevision" : "10/2022",
+        "description": "Siamo interessati a scoprire quali sono i tipi di attività fisica che le persone svolgono come parte della loro vita quotidiana.\nLe domande ti chiederanno del tempo che hai trascorso facendo attività fisica. Rispondi a ciascuna domanda anche se non ti consideri una persona attiva.\nPensa alle attività che svolgi sul lavoro, come parte del lavoro di casa e del giardino, per spostarti da un luogo all'altro e nel tuo tempo libero per ricreazione, esercizio o sport.", 
+        "questions" : [
+            {
+                "question_id": 0, 
+                "order" : 0, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Hai un animale domestico?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "No", "is_positive": false},  
+                    {"value": "Si", "is_positive": false}
+                ]
+            }, 
+            {
+                "question_id": 1, 
+                "order" : 1, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Fumi o hai mai fumato?",
+                "type": "multiple", 
+                "options": [
+                    {"value": "Si, fumo", "is_positive": false},  
+                    {"value": "Ero un fumatore", "is_positive": false},
+                    {"value": "No", "is_positive": false}
+                ]
+            }, 
+            {
+                "question_id": 2, 
+                "order" : 2, 
+                "positive_order": 3, 
+                "negative_order": 7, 
+                "value": "Fumi sigarette normali o e-cig (es. Iqos o vape)?", 
+                "type": "multiple", 
+                "options": [
+                    {"value": "Normali", "is_positive": true},  
+                    {"value": "Iqos/Glo/altre", "is_positive": true},
+                    {"value": "Elettronica con liquidi", "is_positive": false}
+            ]
+            }, 
+            {
+                "question_id": 3, 
+                "order" : 3, 
+                "positive_order": 4, 
+                "negative_order": 4, 
+                "value": "Quante sigarette fumi al giorno?", 
+                "type": "free-text", 
+                "options": [
+                    {
+                    "value": null, 
+                    "is_positive": false
+                    }
+                ]
+            }, 
+            {
+                "question_id": 4, 
+                "order" : 4, 
+                "positive_order": 5, 
+                "negative_order": 5, 
+                "value": "Da quanti anni fumi?",
+                "type": "free-text", 
+                "options": [
+                    {
+                        "value": null, 
+                        "is_positive": false
+                        }
+                ]
+            }, 
+            {
+                "question_id": 5, 
+                "order" : 5, 
+                "positive_order": 6, 
+                "negative_order": 6, 
+                "value": "In quanti giorni hai fatto attività fisica vigorosa (sforzo fisico intenso e ti fanno respirare molto più forte)?",
+                "type": "multiple", 
+                "options": [
+                    {
+                    "value": "0", 
+                    "is_positive": false
+                    }, 
+                    {
+                        "value": "1", 
+                        "is_positive": false
+                        }, 
+                        {
+                            "value": "2", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "3", 
+                                "is_positive": false
+                                }, 
+                                {
+                                    "value": "4", 
+                                    "is_positive": false
+                                    }, 
+                                    {
+                                        "value": "5", 
+                                        "is_positive": false
+                                        }, 
+                                        {
+                                            "value": "6", 
+                                            "is_positive": false
+                                            }, 
+                                            {
+                                                "value": "7", 
+                                                "is_positive": false
+                                                }
+                ]
+    
+            }, 
+            {
+                "question_id": 6, 
+                "order" : 6, 
+                "positive_order": 7, 
+                "negative_order": 7, 
+                "value": "La tua attività fisica principale viene svolta al chiuso (sollevamento pesi, pallacanestro ..) o all'aperto (ciclismo, corsa, calcio ..)?", 
+                "type": "binary", 
+                "options": [
+                    {
+                        "value": "Al chiuso", 
+                        "is_positive": true
+                        }, 
+                        {
+                            "value": "All'aperto", 
+                            "is_positive": true
+                        }
+                ]
+                
+            }, 
+            {
+                "question_id": 7, 
+                "order" : 7, 
+                "positive_order": 8, 
+                "negative_order": 8, 
+                "value":"In media, quanti giorni fai attività fisica moderata come trasportare carichi leggeri, andare in bicicletta a un ritmo regolare o tennis doppi? Non includere la camminata.", 
+                "type": "multiple", 
+                "options": [
+                    {
+                        "value": "0", 
+                        "is_positive": false
+                        }, 
+                        {
+                            "value": "1", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "2", 
+                                "is_positive": false
+                                }, 
+                                {
+                                    "value": "3", 
+                                    "is_positive": false
+                                    }, 
+                                    {
+                                        "value": "4", 
+                                        "is_positive": false
+                                        }, 
+                                        {
+                                            "value": "5", 
+                                            "is_positive": false
+                                            }, 
+                                            {
+                                                "value": "6", 
+                                                "is_positive": false
+                                                }, 
+                                                {
+                                                    "value": "7", 
+                                                    "is_positive": false
+                                                    }
+                ]
+                
+            }, 
+            {
+                "question_id": 8, 
+                "order" : 8, 
+                "positive_order": 9, 
+                "negative_order": 9, 
+                "value": "In media, quanti giorni cammini per almeno 10 minuti alla volta?",
+                "type": "multiple", 
+                "options": [
+                    {
+                        "value": "0", 
+                        "is_positive": false
+                        }, 
+                        {
+                            "value": "1", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "2", 
+                                "is_positive": false
+                                }, 
+                                {
+                                    "value": "3", 
+                                    "is_positive": false
+                                    }, 
+                                    {
+                                        "value": "4", 
+                                        "is_positive": false
+                                        }, 
+                                        {
+                                            "value": "5", 
+                                            "is_positive": false
+                                            }, 
+                                            {
+                                                "value": "6", 
+                                                "is_positive": false
+                                                }, 
+                                                {
+                                                    "value": "7", 
+                                                    "is_positive": false
+                                                    }
+                ]
+                
+            }, 
+            {
+                "question_id": 9, 
+                "order" : 9, 
+                "positive_order": 10, 
+                "negative_order": 10, 
+                "value": "In media, quanti giorni cammini per almeno 10 minuti alla volta?",
+                "type": "binary", 
+                "options": [
+                    {
+                    "value": "No", 
+                    "is_positive": false
+                    }, 
+                    {
+                        "value": "Si", 
+                        "is_positive": false
+                        }
+                ]
+                
+            }
+            
+        ]
+    
+        }, 
+
+        {
+            "name": "Anamnesi Malattie Respiratorie", 
+            "id" : 4, 
+            "lastRevision" : "10/2022",
+            "description": "Questa sezione viene utilizzata per verificare precedenti ospedalizzazioni, visite e anamnesi dell'asma",
+            "questions" : [
+                {
+                    "question_id": 1, 
+                    "order" : 1, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Sei stato diagnosticato con BPCO?", 
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "Si", 
+                                "is_positive": false
+                                }
+                    ]
+                }, 
+                {
+                    "question_id": 2, 
+                    "order" : 2, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Sei mai stato intubato a causa dell'asma?", 
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "Si", 
+                                "is_positive": false
+                                }
+                    ]
+                }, 
+                {
+                    "question_id": 3, 
+                    "order" : 3, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "A che età ti è stata diagnosticata l'asma?",
+                    "type": "free-text", 
+                    "options": [
+                        {
+                            "value": null, 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 4, 
+                    "order" : 4, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Hai sintomi di asma durante tutto l'anno o solo stagionalmente?", 
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "Solo stagionalmente",
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Durante tutto l'anno",
+                            "is_positive": false
+                            }
+                    ]
+                },
+                {
+                    "question_id": 5, 
+                    "order" : 5, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Durante l'ultimo anno, hai mai preso antibiotici per trattare un'infezione respiratoria?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 6, 
+                    "order" : 6, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Durante l'ultimo anno, quante visite programmate hai avuto?",
+                    "type": "free-text", 
+                    "options": [
+                        {
+                            "value": null, 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 7, 
+                    "order" : 7, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Durante l'ultimo anno, sei andato in un pronto soccorso o in un centro di cure urgenti o sei stato ricoverato per difficoltà respiratorie?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 8, 
+                    "order" : 8, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Hai avuto sintomi di asma (sibilo, senso di oppressione al petto, mancanza di respiro) nell'ultimo anno?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 9, 
+                    "order" : 9, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Hai usato corticosteroidi sistemici (corticosteroidi orali, intramuscolari o endovenosi) nell'ultimo anno?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 10, 
+                    "order" : 10, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Quando è stata l'ultima volta che hai usato corticosteroidi sistemici? (Mesi fa)", 
+                    "type": "multiple", 
+                    "options": [
+                        {
+                            "value": "0", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "1", 
+                                "is_positive": false
+                                }, 
+                                {
+                                    "value": "2", 
+                                    "is_positive": false
+                                    }, 
+                                    {
+                                        "value": "3", 
+                                        "is_positive": false
+                                        }, 
+                                        {
+                                            "value": "4", 
+                                            "is_positive": false
+                                            }, 
+                                            {
+                                                "value": "5", 
+                                                "is_positive": false
+                                                }, 
+                                                {
+                                                    "value": "6", 
+                                                    "is_positive": false
+                                                    }, 
+                                                    {
+                                                        "value": "7", 
+                                                        "is_positive": false
+                                                        }, 
+                                                        {
+                                                            "value": "8", 
+                                                            "is_positive": false
+                                                            }, 
+                                                            {
+                                                                "value": "9", 
+                                                                "is_positive": false
+                                                                }, 
+                                                                {
+                                                                    "value": "10", 
+                                                                    "is_positive": false
+                                                                    }, 
+                                                                    {
+                                                                        "value": "11", 
+                                                                        "is_positive": false
+                                                                        }, 
+                                                                        {
+                                                                            "value": "12", 
+                                                                            "is_positive": false
+                                                                            }
+                    ]
+                }, 
+                {
+                    "question_id": 11, 
+                    "order" : 11, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Hai usato corticosteroidi sistemici per più di 3 mesi consecutivi nell'ultimo anno?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 12, 
+                    "order" : 12, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Quanti cicli di steroidi hai avuto nell'ultimo anno?\nPer \"ciclo di steroidi\" intendiamo l'uso di corticosteroidi orali (come pillole o sciroppo di steroidi), o l'aumento delle dosi di steroidi di routine, per un breve periodo (come pochi giorni o settimane consecutive) per trattare un deterioramento dei sintomi dell'asma. ",
+                    "type": "free-text", 
+                    "options": [
+                        {
+                            "value": null, 
+                            "is_positive": false
+                            }
+                    ]
+                },
+                {
+                    "question_id": 13, 
+                    "order" : 13, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Hai avuto esacerbazioni di asma nell'ultimo anno?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                },
+                {
+                    "question_id": 14, 
+                    "order" : 14, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value":"Quante esacerbazioni hai avuto nell'ultimo anno?",
+                    "type": "free-text", 
+                    "options": [
+                        {
+                            "value": null, 
+                            "is_positive": false
+                            }
+                    ]
+                },
+                {
+                    "question_id": 15, 
+                    "order" : 15, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Assumi farmaci quotidianamente per il controllo dell'asma (ad esempio inalatore)?",
+                    "type": "binary", 
+                    "options": [
+                        {
+                            "value": "No", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Si", 
+                            "is_positive": false
+                            }
+                    ]
+                }, 
+                {
+                    "question_id": 16, 
+                    "order" : 16, 
+                    "positive_order": 2, 
+                    "negative_order": 2, 
+                    "value": "Quale tipo di farmaci assumi per il controllo dell'asma?", 
+                    "type": "multi-check", 
+                    "options": [
+                        {
+                            "value": "Spray nasale", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "Spiriva Respimat 2,5 mcg", 
+                                "is_positive": false
+                                }, 
+                                {
+                                    "value": "Singulair/Montegen/Montelukast", 
+                                    "is_positive": false
+                                    }, 
+                                    {
+                                        "value": "Antistaminici",
+                                        "is_positive": false
+                                        }, 
+                        {
+                            "value": "Relvar or Revinty 92/22 mcg ", 
+                            "is_positive": false
+                            }, 
+                        {
+                            "value": "Relvar or Revinty 184/22 mcg", 
+                            "is_positive": false
+                            }, 
+                            {
+                                "value": "Aliflus or Seretide spray 25/50 mcg", 
+                                "is_positive": false
+                                }, 
+                                {
+                                    "value": "Aliflus or Seretide spray 25/125 mcg", 
+                                    "is_positive": false
+                                    }, 
+                                    {
+                                        "value": "Aliflus or Seretide spray 25/250 mcg", 
+                                        "is_positive": false
+                                        }, 
+                                        {
+                                            "value": "Aliflus or Seretide diskus 100/50 mcg", 
+                                            "is_positive": false
+                                            }, 
+                                            {
+                                                "value": "Aliflus or Seretide diskus 250/50 mcg", 
+                                                "is_positive": false
+                                                }, 
+                                                {
+                                                    "value": "Aliflus or Seretide diskus 500/50 mcg", 
+                                                    "is_positive": false
+                                                    }, 
+                                                    {
+                                                        "value": "Foster or Inuver of Formodual inhalation solution 100/6 mcg", 
+                                                        "is_positive": false
+                                                        },                         {
+                                                            "value": "Foster or Inuver of Formodual inhalation solution 200/6 mcg", 
+                                                            "is_positive": false
+                                                            }, 
+                                                            {
+                                                                "value": "Foster Nexthaler 100/6 mcg", 
+                                                                "is_positive": false
+                                                                }, 
+                                                                {
+                                                                    "value": "Foster Nexthaler 200/6 mcg", 
+                                                                    "is_positive": false
+                                                                    },                         {
+                                                                        "value": "Symbicort Turbohaler 160/4,5 mcg", 
+                                                                        "is_positive": false
+                                                                        },                         {
+                                                                            "value": "Symbicort Turbohaler 320/9 mcg", 
+                                                                            "is_positive": false
+                                                                            },                         {
+                                                                                "value": "Flutiformo or Abriff 50/5 mcg", 
+                                                                                "is_positive": false
+                                                                                },                         {
+                                                                                    "value": "Flutiformo or Abriff 125/5 mcg", 
+                                                                                    "is_positive": false
+                                                                                    },                         {
+                                                                                        "value": "Flutiformo or Abriff 250/10 mcg", 
+                                                                                        "is_positive": false
+                                                                                        },                         {
+                                                                                            "value": "Duoresp Spiromax 160/4,5 mcg", 
+                                                                                            "is_positive": false
+                                                                                            },                         {
+                                                                                                "value": "Duoresp Spiromax 320/9 mcg", 
+                                                                                                "is_positive": false
+                                                                                                },                         {
+                                                                                                    "value": "Gibiter 160/4.5 mcg", 
+                                                                                                    "is_positive": false
+                                                                                                    },                         {
+                                                                                                        "value": "Pulmaxan Turbohaler 100 mcg", 
+                                                                                                        "is_positive": false
+                                                                                                        },                         {
+                                                                                                            "value": "Pulmaxan Turbohaler 200 mcg", 
+                                                                                                            "is_positive": false
+                                                                                                            },                         {
+                                                                                                                "value": "Pulmaxan Turbohaler 400 mcg", 
+                                                                                                                "is_positive": false
+                                                                                                                },                         {
+                                                                                                                    "value": "Alvesco 160 mcg", 
+                                                                                                                    "is_positive": false
+                                                                                                                    },                         {
+                                                                                                                        "value": "Budesonide Viatris 200 mcg", 
+                                                                                                                        "is_positive": false
+                                                                                                                        },                         {
+                                                                                                                            "value": "Trimbow inhalation solution 87/5/9 mcg", 
+                                                                                                                            "is_positive": false
+                                                                                                                            }, 
+                                                                                                                            {
+                                                                                                                                "value": "Altro", 
+                                                                                                                                "is_positive": false
+                                                                                                                                }
+                    ]
+                }
+            ]
+            },
+            {
+                "name": "Analisi di laboratorio", 
+                "id" : 5, 
+                "lastRevision" : "10/2022",
+                "description": "Inserisci tutti i risultati delle ultime analisi di laboratorio del paziente",
+                "questions" : [
+                    {
+                        "question_id": 1, 
+                        "order" : 1, 
+                        "positive_order": 2, 
+                        "negative_order": 2, 
+                        "value": "Inserisci il tuo ultimo livello di eosinofili nel sangue (udm: [109/l] [%])", 
+                        "type": "free-text", 
+                        "options": [
+                            {
+                                "value": null, 
+                                "is_positive": false
+                                }
+                        ]
+                    }, 
+                    {
+                        "question_id": 2, 
+                        "order" : 2, 
+                        "positive_order": 2, 
+                        "negative_order": 2, 
+                        "value": "Inserisci il tuo ultimo livello di IgE nel sangue (udm: [UI/ml] [mg/dl])", 
+                        "type": "free-text", 
+                        "options": [
+                            {
+                                "value": null, 
+                                "is_positive": false
+                                }
+                        ]
+                    }, 
+                    {
+                        "question_id": 3, 
+                        "order" : 3, 
+                        "positive_order": 2, 
+                        "negative_order": 2, 
+                        "value": "Inserisci il tuo ultimo livello di FeNO (udm: [ppb])",
+                        "type": "free-text", 
+                        "options": [
+                            {
+                                "value": null, 
+                                "is_positive": false
+                                }
+                        ]
+                    }
+                ]
+            }
+]

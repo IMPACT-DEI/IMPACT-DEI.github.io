@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Asthma Control Test", 
+        "id": 1, 
+        "lastRevision" : "10/2022", 
+        "description": "This is a test to assess the goodness of control of the chronic respiratory disease", 
+        "questions" : [
+            {
+                "question_id": 1, 
+                "order" : 1, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Nelle ultime 4 settimane, per quanto tempo l’asma le ha impedito di fare tutto ciò che avrebbe fatto di solito al lavoro, a scuola o a casa?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Per tutto il tempo", "is_positive": true},  
+                    {"value": "Per la maggior parte del tempo", "is_positive": true}, 
+                    {"value": "Per un certo tempo", "is_positive": true}, 
+                    {"value": "Per poco tempo", "is_positive": true}, 
+                    {"value": "Mai", "is_positive": true}
+                ]
+            },
+            {
+                "question_id": 2, 
+                "order" : 2, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Nelle ultime 4 settimane, quanto spesso ha avuto il fiato corto?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Più di una volta al giorno", "is_positive": true},  
+                    {"value": "Una volta al giorno", "is_positive": true}, 
+                    {"value": "Da 3 a 6 a settimana", "is_positive": true}, 
+                    {"value": "Una o due volte a settimana", "is_positive": true}, 
+                    {"value": "Mai", "is_positive": true}
+                ]
+            },
+            {
+                "question_id": 3, 
+                "order" : 3, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Nelle ultime 4 settimane, quanto spesso i sintomi dell’asma (sibilo, tosse, fiato corto, costrizione o dolore al petto) l’hanno svegliata di notte o più presto del solito al mattino?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "4 o più notti la settimana", "is_positive": true},  
+                    {"value": "Da 2 a 3 notti la settimana", "is_positive": true}, 
+                    {"value": "Una volta a settimana", "is_positive": true}, 
+                    {"value": "Una o due volte", "is_positive": true}, 
+                    {"value": "Mai", "is_positive": true}
+                ]
+            },
+            {
+                "question_id": 4, 
+                "order" : 4, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Nelle ultime 4 settimane, quanto spesso ha usato l’inalatore di emergenza o il farmaco per aerosol (come Salbutamolo)?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "3 o più volte al giorno", "is_positive": true},  
+                    {"value": "1 o 2 volte al giorno", "is_positive": true}, 
+                    {"value": "2 o 3 volte a settimana", "is_positive": true}, 
+                    {"value": "Una volta la settimana o meno", "is_positive": true}, 
+                    {"value": "Mai", "is_positive": true}
+                ]
+            },
+            {
+                "question_id": 5, 
+                "order" : 5, 
+                "positive_order": 2, 
+                "negative_order": 2, 
+                "value": "Come valuterebbe in che misura la sua asma è stata sotto controllo nelle ultime 4 settimane?", 
+                "type": "binary", 
+                "options": [
+                    {"value": "Per niente sotto controllo", "is_positive": true},  
+                    {"value": "Scarsamente sotto controllo", "is_positive": true}, 
+                    {"value": "Abbastanza sotto controllo", "is_positive": true}, 
+                    {"value": "Ben sotto controllo", "is_positive": true}, 
+                    {"value": "Completamente sotto controllo", "is_positive": true}
+                ]
+            }
+        ]
+    
+    }
+]
